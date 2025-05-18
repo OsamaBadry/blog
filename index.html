@@ -8,66 +8,123 @@
 </head>
 <body>
     <header>
-        <nav id="navlist">
-            <h1> My Blog </h1>
-            <ul id="nav_ul">
+        <nav>
+            <ul class="nav-links">
                 <li> <a href="index.html"> home </a> </li>
                 <li> <a href="blog.html"> blog </a> </li>
                 <li> <a href="contact.html"> contact </a> </li>
             </ul>
         </nav>
+    </header>
+    
         <div id="posts_list">
-            <h2> posts list </h2>
+            <h2> Posts list </h2>
             <ul>
                 <li> <a href="#post1"> post num 1 </a></li>
                 <li> <a href="#post2"> post num 2 </a></li>
                 <li> <a href="#post3"> post num 3 </a></li>
             </ul>
-        </div>
-    </header>
-    <br>
+        </div> 
     <br>
     <main>
-        <h2> descriptive heading </h2>
-        <p>dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit veritatis fugiat cum nisi officia aliquid delectus corporis voluptates accusantium enim nostrum, aliquam dolor dignissimos sint. Excepturi quas placeat aliquid. </p>
+        <div class="post" id="#pot1"> 
+            <h2> <a href="blog.html"> Post Title 1  </a> </h2>
+            <p> by John Doe </p>
+            <time datetime=""> 6 may 2025</time>
+            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <img src="spLogo.jpg" alt="iamge of flower" width="50%" >
+            <p> for more details <a href="blog.html"> click here  </a> </p>
+            <h3> Key Poisnts </h3>
+            <ul>
+                <li> introductiton </li>
+                <li> condtitions </li>
+                <li> key words </li>
+            </ul>
+
+        </div>
+        <br>
+        <br>
+        <div class="post" id="#pot1"> 
+            <h2> <a href="blog.html"> Post Title 1  </a> </h2>
+            <p> by John Doe </p>
+            <time datetime=""> 6 may 2025</time>
+            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <img src="spLogo.jpg" alt="iamge of flower" width="50%" >
+            <p> for more details <a href="blog.html"> click here  </a> </p>
+            <h3> Key Poisnts </h3>
+            <ul>
+                <li> introductiton </li>
+                <li> condtitions </li>
+                <li> key words </li>
+            </ul>
+
+        </div>
         <br><br>
         <div class="post" id="#pot1"> 
-            <h2> <a href="blog.html"> post num 1  </a> </h2>
-            <img src="spLogo.jpg" alt="iamge of flower" width="50%" >
-            <p> author </p>
+            <h2> <a href="blog.html"> Post Title 1  </a> </h2>
+            <p> by John Doe </p>
             <time datetime=""> 6 may 2025</time>
-            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus saepe totam. Tempore vel sequi rerum repudiandae! Vel, ad in, dolorum obcaecati sunt, consequatur asperiores alias magnam pariatur <a href="blog.html"> read more </a> </p>
-        </div>
-        <br>
-        <br>
-        <div class="post" id="post2"> 
-            <h2> <a href="blog.html"> post num 2  </a> </h2>
+            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
             <img src="spLogo.jpg" alt="iamge of flower" width="50%" >
+            <p> for more details <a href="blog.html"> click here  </a> </p>
+            <h3> Key Poisnts </h3>
+            <ul>
+                <li> introductiton </li>
+                <li> condtitions </li>
+                <li> key words </li>
+            </ul>
 
-            <p> author </p>
-            <time datetime="time"> 6 may 2025</time>
-            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus saepe totam. Tempore vel sequi rerum repudiandae! Vel, ad in, dolorum obcaecati sunt, consequatur asperiores alias magnam pariatur <a href="blog.html"> read more </a> </p>
         </div>
-        <br><br>
-        <div class="post" id="post3"> 
-
-            <h2> <a href="blog.html"> post num 3 </a> </h2>
-            <img src="spLogo.jpg" alt="iamge of flower" width="50%" >
-
-            <p> author </p>
-            <time datetime=""> 6 may 2025</time>
-            <p> dummy text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus saepe totam. Tempore vel sequi rerum repudiandae! Vel, ad in, dolorum obcaecati sunt, consequatur asperiores alias magnam pariatur <a href="blog.html"> read more </a> </p>
-        </div>
+        
     </main>
     <br><br>
-    <footer>
-        <nav>         
-            <ul>
-                <li> <a href=""> home </a> </li>
-                <li> <a href=""> blog </a> </li>
-                <li> <a href=""> contact </a> </li>
-            </ul>
-        </nav>
-    </footer>
+
+    <div class="gray">
+        <div class="spacer"></div>
+        <div class="white">
+            <h2> Contact Us </h2>
+        <form action="">
+            <label for="name"> Name </label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email"> E-mail </label>
+            <input type="text" name="" id="email">
+            <br>
+            <label for="message"> your messsge </label>
+            <br>
+            <textarea name="message" id="message" required></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+        </form>
+
+        </div>
+        <div class="spacer"></div>
+
+        <table>
+
+            <tr>
+                <th> Day </th>
+                <th> Opening Time </th>
+                <th> Closing Time </th>
+            </tr>
+            <tr>
+                <td> Monday </td>
+                <td> 9:00 AM </td>
+                <td> 5:00 PM </td>
+            </tr>
+            <tr>
+                <td> Tuesday </td>
+                <td> 9:00 AM </td>
+                <td> 5:00 PM </td>
+            </tr>
+            <tr>
+                <td> Wednesday </td>
+                <td> 9:00 AM </td>
+                <td> 5:00 PM </td>
+            </tr>
+        </table>
+
+    </div>
+    
 </body>
 </html>
